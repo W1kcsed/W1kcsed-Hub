@@ -22,6 +22,11 @@ end
 local placeId = game.PlaceId
 local url = resolveUrl(placeId)
 
+if url == nil then
+    warn("[W1kcsed Hub] No url for:", placeId, " and Default.")
+    return
+end
+
 local ok, err = pcall(function()
     local src = game:HttpGet(url, true)
     loadstring(src)()
