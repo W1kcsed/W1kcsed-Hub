@@ -4,7 +4,7 @@ local PLACE_BITE_BY_NIGHT = 70845479499574
 local ScriptUrls = {
     [PLACE_PARKOUR] = "https://raw.githubusercontent.com/W1kcsed/W1kcsed-Hub/refs/heads/main/PFB.lua",
     [PLACE_BITE_BY_NIGHT] = "https://raw.githubusercontent.com/W1kcsed/W1kcsed-Hub/refs/heads/main/BBN.lua",
-    Default = "",
+    Default = "https://raw.githubusercontent.com/W1kcsed/W1kcsed-Hub/refs/heads/main/univ.lua",
 }
 
 local function resolveUrl(placeId)
