@@ -23,7 +23,7 @@ local placeId = game.PlaceId
 local url = resolveUrl(placeId)
 
 if url == nil then
-    warn("[W1kcsed Hub] No url for:", placeId, " and Default.")
+    warn("[Frostbite Hub] No url for:", placeId, " and Default.")
     return
 end
 
@@ -33,5 +33,5 @@ local ok, err = pcall(function()
 end)
 
 if not ok then
-    warn("[W1kcsed Hub] Failed to load: ", err)
+    warn("[Frostbite Hub] Failed to load: ", err)
 end
